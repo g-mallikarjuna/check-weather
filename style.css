@@ -65,13 +65,13 @@ button:hover{
     }
     .Usertext{
     height: 40px;
-    width: 80%;
+    width: 100%;
     font-size: 1rem;
     border: 1px solid lightseagreen;
     outline: none;
 }
 button{
-    padding: 12px 30px;
+    padding: 10px 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
