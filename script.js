@@ -1,3 +1,14 @@
+function checkConnection(){
+    const getStatus = document.getElementById('no-internet');
+    if(navigator.onLine){
+        getStatus.style.display = "none";
+    }else{
+        getStatus.style.display = "block";
+    }
+}
+checkConnection();
+window.addEventListener('online',checkConnection);
+window.addEventListener('offline',checkConnection);
 
 const getcity = document.getElementById('cityName');
 const button = document.getElementById('checkweather');
@@ -21,14 +32,4 @@ button.addEventListener('click', () => {
         console.log("Error Fetching ");
     })
 });
-function checkConnection(){
-    const getStatus = document.getElementById('no-internet');
-    if(navigator.onLine){
-        getStatus.style.display = "none";
-    }else{
-        getStatus.style.display = "block";
-    }
-}
-checkConnection();
-window.addEventListener('online',checkConnection);
-window.addEventListener('offline',checkConnection);
+
