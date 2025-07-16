@@ -21,7 +21,7 @@ button.addEventListener('click', () => {
         console.log("Error Fetching ");
     })
 });
-funtion checkConnection(){
+function checkConnection(){
     const getStatus = document.getElementById('no-internet');
     if(navigator.onLine){
         getStatus.style.display = "none";
