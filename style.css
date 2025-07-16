@@ -1,0 +1,66 @@
+body{
+    background-image: url(images/istockphoto-1007768414-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    -webkit-tap-highlight-color: transparent;
+    overflow-y: hidden;
+}
+.Outercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Innercontainer{
+    border: 2px solid hsl(54, 100%, 90%);
+    height: 300px;
+    width: 50%;
+    gap:10px;
+    padding: 10px;
+    padding-top: 50px;
+    box-shadow:  4px -4px 13px #e6e6fa;
+    backdrop-filter: blur(5px);
+}
+.Inputfeild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Usertext{
+    height: 40px;
+    width: 60%;
+    font-size: 1rem;
+    border: 1px solid lightseagreen;
+    outline: none;
+}
+button{
+    padding: 12px 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+button:hover{
+    background-color: hsl(240, 67%, 94%);
+    cursor: pointer;
+}
+.Climateinformation{
+    text-align: center;;
+}
+.Climateinformation > h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 700;
+}
+@media screen and (max-width:700px) {
+    body{
+    background-image: url(istockphoto-1007768414-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: 30%;
+    background-size: cover;
+}
+    .Innercontainer{
+        width: 100%;
+    }
+}
