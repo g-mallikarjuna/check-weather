@@ -10,7 +10,7 @@ const cityhumidity = document.getElementById('cityhumidity');
 button.addEventListener('click', () => {
     const city = getcity.value;
     const apiKey = 'b70bf6aaffd146e1a68132254251107';
-    const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
 
     fetch(url).then(res => res.json()).then(data => {
         cityname.textContent = `City: ${data.location.name}`; 
