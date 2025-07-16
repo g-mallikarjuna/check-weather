@@ -21,3 +21,14 @@ button.addEventListener('click', () => {
         console.log("Error Fetching ");
     })
 });
+funtion checkConnection(){
+    const getStatus = document.getElementById('no-internet');
+    if(navigator.onLine){
+        getStatus.style.display = "none";
+    }else{
+        getStatus.style.display = "block";
+    }
+}
+checkConnection();
+window.addEventListener('online',checkConnection);
+window.addEventListener('offline',checkConnection);
