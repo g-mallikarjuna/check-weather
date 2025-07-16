@@ -55,7 +55,7 @@ button:hover{
 }
 @media screen and (max-width:700px) {
     body{
-    background-image: url(istockphoto-1007768414-612x612.jpg);
+    background-image: url(images/istockphoto-1007768414-612x612.jpg);
     background-repeat: no-repeat;
     background-position: 30%;
     background-size: cover;
