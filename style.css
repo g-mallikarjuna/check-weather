@@ -15,6 +15,7 @@ body{
     width:100%;
     background-color:rgba(0,0,0,0.9);
     color:#fff;
+    font-size:2rem;
     text-align:center;
     padding-top:40vh;
     z-index:9999;
